@@ -1,0 +1,77 @@
+body{
+    background-color: #FDF5E6;
+}
+
+.header{
+    background-color: #FF9999;
+    border: dotted;
+}
+
+h1{
+    font-size: 40px;
+    font-style: oblique;
+}
+
+h1 a{
+    font-size: 20px;
+    text-decoration: none;
+    font-style: normal;
+    margin: 40px;
+    padding: 10px;
+}
+
+.home{
+    margin-left:200px;
+}
+
+h2{
+    font-size: 30px;
+}
+
+p{
+    font-size: 20px;
+}
+
+form{
+    border: solid 2px black;
+    border-radius: 5px;
+    width: 500px;
+}
+
+input[type=text], select {
+    width: 75%;
+    padding: 8px 12px;
+    margin: 5px 0;
+    margin-top: 10px;
+    margin-left: 10px;
+    display: inline-block;
+    border: 1px solid ;
+    border-radius: 2px;
+}
+
+input[type=text][name="message"], select {
+    width: 75%;
+    padding: 50px 12px;
+    margin: 5px 0;
+    margin-left: 10px;
+    display: inline-block;
+    border: 1px solid ;
+    border-radius: 2px;
+}
+
+button[type=button], select {
+    width: 80%;
+    padding: 8px 12px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    border: 1px solid;
+    border-radius: 2px;
+}
+
+label{
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 100px; 
+    display: inline-block;
+    font-size: 20px;
+}
