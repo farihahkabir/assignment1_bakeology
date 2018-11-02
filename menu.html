@@ -3,7 +3,7 @@
 
 <head>
   <title>Bakeology</title>
-  <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link rel="stylesheet" href="style.css">
 </head>
 
@@ -24,9 +24,31 @@
     </h1>
   </div>
   
-  <div class="body"></div>
+  <div class="container">
+    <!--Menu-->
+    <div id="menu-items" class="jumbotron">
+      <h2>Menu</h2>
+      <button align="left" id="showCartBtn" class="btn btn-danger btn-lg">Cart</button>
+      <hr class="my-4">
+      <div id="desserts-row" class="row">
+        
+      </div>
+    </div>
+    
+    <!-- Cart section -->
+    <div id="cart" class="jumbotron">
+      <h2>Cart</h2>
+      <button id="close" class="btn btn-danger btn-lg">Close</button>
+      <hr class="my-4">
+      <div id="cart-row" class="row">
+        
+      </div>
+      <hr class="my-4">
+      <h4>Total: <span id="total"></span></h4>
+    </div>
+  </div>
   
-  <script type="text/javascript" src="vendor/jquery-3.3.1.min.js"></script>
+  <script type="text/javascript" src="/jquery-3.3.1.min.js"></script>
   <script type="text/javascript" src="script.js"></script>
 </body>
 

@@ -4,16 +4,18 @@ body{
 
 .header{
     background-color: #FF9999;
-    border: dotted;
+    border: solid;
 }
 
 h1{
-    font-size: 40px;
-    font-style: oblique;
+    font-size: 50px;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    color: #B03060;
 }
 
 h1 a{
     font-size: 20px;
+    font-family: sans-serif;
     text-decoration: none;
     font-style: normal;
     margin: 40px;
@@ -26,16 +28,17 @@ h1 a{
 
 h2{
     font-size: 30px;
+    text-decoration: underline;
 }
 
 p{
     font-size: 20px;
 }
 
-form{
+.comment-form{
     border: solid 2px black;
     border-radius: 5px;
-    width: 500px;
+    width: 550px;
 }
 
 input[type=text], select {
@@ -59,13 +62,21 @@ input[type=text][name="message"], select {
     border-radius: 2px;
 }
 
-button[type=button], select {
-    width: 80%;
-    padding: 8px 12px;
-    margin-left: 10px;
+.button1 {
+    width: 75%;
+    padding: 12px 12px;
+    margin-left: 123px;
     margin-bottom: 20px;
-    border: 1px solid;
+    border: 2px solid;
     border-radius: 2px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #DB7093;
+}
+
+.button1:hover {
+    background-color: #B03060;
+    color: white;
 }
 
 label{
@@ -74,4 +85,76 @@ label{
     width: 100px; 
     display: inline-block;
     font-size: 20px;
+}
+
+@media (max-width: 700px) and (min-width:300px){
+    .home{
+        margin-left: 20px;
+    }
+    p{
+        font-size: 25px;
+    }
+    
+    h1 a{
+        font-size:30px;
+    }
+    
+}
+
+@media (max-width: 575px) and (min-width: 150px){
+    .comment-form{
+        width: 300px;
+    }
+    .button1{
+        margin-left: 5px;
+    }
+}
+
+@media (max-width: 1024px) and (min-width: 701px){
+    a{
+        margin: 20px;
+    }
+    .home{
+       margin-left: 40px; 
+    }
+    h1{
+        font-size: 35px;
+    }
+    h1 a{
+        font-size:28px;
+    }
+}
+
+.container {
+  padding: 12px;
+}
+
+.card {
+  margin-top: 8px;
+  width: 100%;
+}
+
+input {
+  width: 30px;
+  margin-left: 6px;
+}
+
+#cart {
+  display: none;
+}
+
+#homepage{
+    margin-left: 120px;
+    margin-top: 50px;
+    border: solid;
+    display: inline-block;
+}
+
+.cookiepic{
+    float: left;
+    margin-right: 15px;
+}
+
+.welcome{
+    margin-top: 15px;
 }
