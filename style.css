@@ -101,12 +101,15 @@ label{
     
 }
 
-@media (max-width: 575px) and (min-width: 150px){
+@media (max-width: 575px){
     .comment-form{
         width: 300px;
     }
     .button1{
         margin-left: 5px;
+    }
+    .homebody{
+        width: 50%;
     }
 }
 
@@ -144,10 +147,10 @@ input {
 }
 
 #homepage{
-    margin-left: 120px;
-    margin-top: 50px;
+    margin-top: 25px;
     border: solid;
     display: inline-block;
+    position: relative;
 }
 
 .cookiepic{
@@ -157,4 +160,13 @@ input {
 
 .welcome{
     margin-top: 15px;
+}
+
+.panel, .payment-note, .form-group {
+  display: none;
+}
+
+
+.payment-note{
+    font-size: 20px;
 }
