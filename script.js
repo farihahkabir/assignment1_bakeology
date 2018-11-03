@@ -112,3 +112,7 @@ $(document).ready(function(){
   });
 
 });
+
+function submitForm(){
+  alert('Submitted');
+}
