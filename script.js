@@ -5,7 +5,11 @@ var desserts = [
   {name: "Profiteroles", price: "700 (per 10 pieces)", image: "https://thecrumbykitchen.com/wp-content/uploads/2018/02/Strawberry-Ros%C3%A9-Profiteroles-5-684x1025.jpg"},
   {name: "Eclairs", price: "700 (per two)", image: "https://www.epicurus.com/food/recipes/wp-content/uploads/2012/02/Eclairs.jpg"},
   {name: "Creme Brulee", price: "850 (per two)", image: "https://static01.nyt.com/images/2017/12/13/dining/15COOKING-CREME-BRULEE1/15COOKING-CREME-BRULEE1-articleLarge.jpg"},
-  {name: "Soft Baked Chocolate Chip Cookies (per dozen)", price: "120", image: "http://www.milkandcardamom.com/wp-content/uploads/2017/06/Chocolate-Chip-Cookies-1-480x640.jpg"}
+  {name: "Meringues", price: "325 (per dozen)", image: "https://www.snowflake.co.za/images/stock/38_colour_swirl_meringues.png"},
+  {name: "Red Velvet Cake", price: "1500 (per cake)", image: "https://thenovicechefblog.com/wp-content/uploads/2015/06/Red-Velvet-Dream-Cake-1-sm.png"},
+  {name: "Chocolate Pudding", price: "400 (per two)", image: "https://www.honey.com/images/general/_recipePage/31161/velvety-honey-chocolate-pudding.png"},
+  {name: "Soft Baked Chocolate Chip Cookies (per dozen)", price: "120", image: "http://www.milkandcardamom.com/wp-content/uploads/2017/06/Chocolate-Chip-Cookies-1-480x640.jpg"},
+  {name: "Chocolate Chip Muffin", price: "400 (per muffin)", image: "https://fitfoodiefinds.com/wp-content/uploads/2016/02/healthy-banana-chocolate-chip-muffins2.png"}
 ];
 
 var cart = localStorage.getItem('cart') 
