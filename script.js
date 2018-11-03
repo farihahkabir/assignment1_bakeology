@@ -100,5 +100,15 @@ $(document).ready(function(){
     $('.form-group').show();
     $('.payment-note').show();
   });
+  
+  $("#backbutton").click(function(){
+    $("#cart").show();
+    $("#menu-items").hide();
+    $("#showCartBtn").hide();
+    $('#close').show();
+    $('.panel').hide();
+    $('.form-group').hide();
+    $('.payment-note').hide();
+  });
 
 });
