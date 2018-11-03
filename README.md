@@ -29,7 +29,7 @@ After placing your order, a message will appear about you order confirmation. Th
 
 ![screenshot 17](https://user-images.githubusercontent.com/43327792/47936057-b4263200-df06-11e8-8e60-637eecefcb1f.png)
 
-The contact us page has a form to submit any comments, suggestions or complaints.
+The contact us page has a form to submit any comments, suggestions or complaints. The entire form must be filled to submit.
 
 ![screenshot 18](https://user-images.githubusercontent.com/43327792/47936060-b7212280-df06-11e8-82dd-04e39f0faeb9.png)
 
@@ -42,3 +42,4 @@ Technologies used:
 3. jQuery
 4. JavaScript
 5. Bootstrap
+6. localStorage
